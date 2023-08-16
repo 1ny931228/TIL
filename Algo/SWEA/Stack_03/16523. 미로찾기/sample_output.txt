@@ -1,3 +1,19 @@
 #1 1
-#2 1
-#3 0
+Traceback (most recent call last):
+  File "C:\Users\5959.wondreaming\Desktop\SSAFY\TIL\Algo\SWEA\Stack_03\16523. 미로찾기\16523. 미로찾기2.py", line 38, in <module>
+    result = find_way(i, j)
+             ^^^^^^^^^^^^^^
+  File "C:\Users\5959.wondreaming\Desktop\SSAFY\TIL\Algo\SWEA\Stack_03\16523. 미로찾기\16523. 미로찾기2.py", line 14, in find_way
+    try_up = find_way(x-1, y)
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\5959.wondreaming\Desktop\SSAFY\TIL\Algo\SWEA\Stack_03\16523. 미로찾기\16523. 미로찾기2.py", line 14, in find_way
+    try_up = find_way(x-1, y)
+             ^^^^^^^^^^^^^^^^
+  File "C:\Users\5959.wondreaming\Desktop\SSAFY\TIL\Algo\SWEA\Stack_03\16523. 미로찾기\16523. 미로찾기2.py", line 14, in find_way
+    try_up = find_way(x-1, y)
+             ^^^^^^^^^^^^^^^^
+  [Previous line repeated 995 more times]
+  File "C:\Users\5959.wondreaming\Desktop\SSAFY\TIL\Algo\SWEA\Stack_03\16523. 미로찾기\16523. 미로찾기2.py", line 7, in find_way
+    for x in range(N):
+             ^^^^^^^^
+RecursionError: maximum recursion depth exceeded in comparison
