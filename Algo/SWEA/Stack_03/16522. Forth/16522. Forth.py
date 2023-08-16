@@ -5,6 +5,7 @@ T = int(input())
 
 for t in range(1, T+1):
     STR = input().split()
+    # STR = STR[:-1] 이 조건문을 쓰면, '.'의 조건문을 하나하나 안 걸러도 되니, 앞에서 조건을 달았다.
 
     number = 0
     operation = 0
