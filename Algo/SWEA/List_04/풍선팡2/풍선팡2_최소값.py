@@ -13,13 +13,14 @@ for t in range(1, int(input())+1):
 
     for i in range(N):
         for j in range(M):
-            sum_pang = grid[i][j]
+            sum_pang = 0
+            sum_pang += grid[i][j]
             for dx, dy in direction:
                 ni = i + dx
                 nj = j + dy
                 if 0 <= ni < N and 0 <= nj < M:
                     sum_pang += grid[ni][nj]
-                    if min_pang > sum_pang:
-                        min_pang = sum_pang
+            if min_pang > sum_pang:
+                min_pang = sum_pang
 
-    print(min_pang)
+    print(f'#{t} {min_pang}')

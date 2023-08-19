@@ -19,7 +19,7 @@ for t in range(1, int(input())+1):
                 nj = j + dj[k]
                 if 0 <= ni < N and 0 <= nj < M:
                     SUM += grid[ni][nj]
-                if MAX < SUM:
-                    MAX = SUM
+            if MAX < SUM:
+                MAX = SUM
 
     print(f'#{t} {MAX}')
