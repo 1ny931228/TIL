@@ -6,35 +6,26 @@ for t in range(1, T+1):
 
     # print(t, N, M, answer)
 
-    bonus = 0
     score = []
-    s = 0
-    correct = answer[0]
+    perfect_answer = answer[0]
 
-    # print(correct)
-    for i in range(1, N):
-        for j in range(N):
+    # print(perfect_answer)
+    for i in range(1, N+1): # 처음에 range를 N+2 했는 데, out of range 나옴.
+        correct = 0
+        bonus = 0
+        for j in range(M):
 
-            # print(answer[i][j])
-            if answer[0][j] == answer[i][j]:
-                s += 1
-                bonus += 1
-                s += bonus
-            else:
-                bonus = 0
+                if answer[0][j] == answer[i][j]: # list index out of range
+                    correct += 1
+                    correct += bonus
+                    bonus += 1
+                else:
+                    bonus = 0
+        score.append(correct)
+        score.sort()
 
-        if s > 0:
-            score.append(s)
+        # print(score)
 
-        print(score)
+    result = score[-1] - score[0]
 
-
-
-
-
-
-
-    # score.sort()
-
-    # result = score[-1] - score[0]
-    # print(f'#{t} {result}')
+    print(f'#{t} {result}')
