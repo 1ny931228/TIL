@@ -14,9 +14,8 @@ def f(i, N, cards): # i 이전에 고른 개수, N개에서 K개를 고르는 �
                 used[j] = 1
                 f(i+1, N, cards)
                 used[j] = 0
-def run
-
-def triplet
+def babygin(): # 함수명은 역할이 하나인 것이 최고이다. isWinner이라고 지으면 역할이 하나인 뚜렷한 함수가 된다. 
+    pass
 T = int(input())
 
 for t in range(1, T+1):
@@ -31,7 +30,7 @@ for t in range(1, T+1):
     p = [0] * 6
 
     for i in range(len(cards)):
-        if i == 0 or i % 2 == 0:
+        if i == 0 or i % 2 == 0: # if i % 2
             player1.append(cards[i])
         elif i % 2 == 1:
             player2.append(cards[i])
@@ -41,5 +40,6 @@ for t in range(1, T+1):
 
     # print(cards)
 
-    # print(f'#{t} {WoL}')
+    print(f'#{t} {WoL}')
+
 
