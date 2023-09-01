@@ -2,8 +2,10 @@ import sys
 sys.stdin = open('sample_input(2).txt')
 
 # (0,0)에서 우, 하 둘 중 하나로 갈 예정이다. 우측이나 아래 방향 중 작은 숫자로 이동하자
+# grid를 벗어나지 않게 범위를 정해줘야한다.
+
 def min_way(grid, i, j):
-    if i == N - 1 and j == N - 1:
+    if i == N - 1 and j == N - 1: # 도착점에 도착했을 때
         return grid[i][j]
 
     if i + 1 < N and j + 1 < N:

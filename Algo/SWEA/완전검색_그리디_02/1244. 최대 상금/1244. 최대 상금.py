@@ -34,9 +34,3 @@ for t in range(1, T+1):
     shift_list(lst_nums, MAX, index, 0, int_exchange)
 
     # print(t, MAX)
-
-
-
-
-
-    print()
