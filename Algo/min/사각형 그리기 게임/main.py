@@ -11,4 +11,4 @@ for t in range(1, T+1):
 
 
 
-    print(f'#{t} {cnt}')
+    print(f'#{t} {cnt}')                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  AX           XXXXXXXXXXXXXXXXXXX CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC

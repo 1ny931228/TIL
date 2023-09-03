@@ -21,8 +21,8 @@ for t in range(1, T+1):
                     Perfect_index.append(j)
                     cnt += 1
                     break
-        # else: # 4. j가 다 돌 때까지 i != Sample[j] 인 경우 나오는 탈출구를 만들어줘야함.
-        #     break
+        else: # 4. j가 다 돌 때까지 i != Sample[j] 인 경우 나오는 탈출구를 만들어줘야함.
+            break
 
         if cnt == K: # 2. 길이가 같으면 탈출함으로써, 시간 복잡도를 줄이는 방법
             break
