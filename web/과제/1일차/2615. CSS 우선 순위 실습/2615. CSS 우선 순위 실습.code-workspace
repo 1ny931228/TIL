@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../강의 자료/02-box-model"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "02-box-model"
+	}
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f58ebb6-791f-4b89-a6d9-1cec15fed03d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Algo/강의/230904_Fundamentals of HTML and CSS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-fundamentals-of-html-css/01-html-basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-fundamentals-of-html-css/02-html-text-structure.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-fundamentals-of-html-css/03-css-selectors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-fundamentals-of-html-css/04-css-specificity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-fundamentals-of-html-css/05-css-inheritance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-fundamentals-of-html-css/images/sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-fundamentals-of-html-css/index.html/.idea/index.html.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-fundamentals-of-html-css/index.html/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-fundamentals-of-html-css/index.html/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-fundamentals-of-html-css/index.html/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-fundamentals-of-html-css/index.html/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-fundamentals-of-html-css/index.html/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01-fundamentals-of-html-css/index.html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../과제/1일차/2615. CSS 우선 순위 실습/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../과제/1일차/2615. CSS 우선 순위 실습/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../과제/1일차/2618. 상용 서비스 화면 마크업 클로닝/s1_5_skeleton.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../과제/1일차/2618. 상용 서비스 화면 마크업 클로닝/s1_5_skeleton.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2UxPt5kRdFBKkDcjaIh0tvfkkcQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f58ebb6-791f-4b89-a6d9-1cec15fed03d" name="Default Changelist" comment="" />
+      <created>1693878471488</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693878471488</updated>
+    </task>
+    <servers />
+  </component>
+</project>

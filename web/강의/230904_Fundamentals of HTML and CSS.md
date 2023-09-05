@@ -277,7 +277,7 @@ h1{
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<link rel="stylesheet" href="style.css"
+    	<link rel="stylesheet" href="style.css" /* rel=relationship(관계) */
     <title>Document</title>
 </head>
 <body>
@@ -310,16 +310,19 @@ h1{
 - 기본 선택자
   - 전체(*) 선택자
     - HTML 모든 요소를 선택
+    - 사용은 reset할 때, 그외에는 위험하다.
   - 요소(tag) 선택자
     - 지정한 모든 태그를 선택
-  - 클래스(class) 선택자('.'(dot))
+  - **클래스(class) 선택자('.'(dot))**
     - 주어진 클래스 속성을 가진 모든 요소를 선택
+    - 예) 학급
   - 아이디(id) 선택자('#')
     - 주어진 아이디 속성을 가진 요소 선택
     - 문서에는 주어진 아이디를 가진 요소가 하나만 있어야 함
+    - 예) 주민번호 > 한명당 하나만 있다. 
   - 속성(attr) 선택자 등
 - 결합자(combinatiors)
-  - 자손 결합자(" "(space))
+  - **자손 결합자(" "(space))**
   - 자식 결합자(>)
 
 
