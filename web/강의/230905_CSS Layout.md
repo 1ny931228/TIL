@@ -65,7 +65,8 @@
   - 수평 방향
     - padding, margins, borders가 적용되지만 다른 요소를 밀어낼 수 있음
   - 대표적인 inline 타입 태그
-    - a, span, img
+    - a, span, img, input
+    - 
 
 ```html
 .index{
@@ -79,6 +80,7 @@
 ![image-20230905113029358](C:\Users\SSAFY\AppData\Roaming\Typora\typora-user-images\image-20230905113029358.png)
 
 - `margin-right: auto`는 요소의 가로 정렬을 위한 마진 조절에 사용되고, `text-align: left`는 텍스트 컨텐츠의 가로 정렬을 위해 텍스트 요소에 사용됩니다.
+- inline 요소를 가운데 정렬을 하려면, text-align : center를 해야한다. + 요소의 부모에 가운데 정렬을 해야된다. 
 
 
 

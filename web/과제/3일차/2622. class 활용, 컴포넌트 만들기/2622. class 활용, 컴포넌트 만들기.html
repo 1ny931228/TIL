@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+    img {
+    width: 20%; /* 부모 요소의 너비의 50%로 설정 */
+    height: auto; /* 높이를 자동으로 조절하여 종횡비 유지 */
+    }
+    .letter_color{
+        color: white;
+    }
+    .navbar_style{
+        
+        background-color: black;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    .left-align {
+            text-align: left;
+        }
+    .pagenation_letter_color{
+        color: black;
+    }  
+    .pagenation_background_color{
+        background-color: blue;
+        border-color: blue;
+    }  
+    .pagenation_number_color{
+        color: white;
+    }  
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+    <!-- 버튼 -->
+    <div class="d-grid gap-2">
+        <!-- <button class="btn btn-primary" type="button">Button</button>
+        <button class="btn btn-primary" type="button">Button</button> -->
+        <button type="button" class="btn btn-success btn btn-outline-deepgreen m-3">Sign in</button>
+    </div>
+
+    <!-- 네비게이션바 -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid navbar_style ">
+        <a class="navbar-brand" href="#"><img src="image/ssafy_logo.png" alt="ssafy_logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle text-light left-align" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    프로젝트
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">모모</a></li>
+                    <li><a class="dropdown-item" href="#">치치</a></li>
+                    <li><a class="dropdown-item" href="#">사랑해</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light left-align" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    그룹들
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">모모</a></li>
+                    <li><a class="dropdown-item" href="#">치치</a></li>
+                    <li><a class="dropdown-item" href="#">사랑해</a></li>
+                    </ul>
+                </li>    
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light left-align" href="#">활동</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light left-align" href="#">마일스톤</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light left-align" href="#">스니펫</a>
+                </li>
+                </ul>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- pagenation -->
+    <nav aria-label="...">
+        <ul class="pagination">
+            <li class="page-item disabled">
+                <a class="page-link pagenation_letter_color">Previous</a>
+            </li>
+            <li class="page-item">
+                <a class="page-link pagenation_number_color pagenation_background_color" href="#">1</a>
+            </li>
+            <li class="page-item active" aria-current="page"></li>
+                <a class="page-link pagenation_letter_color" href="#">2</a>
+            <li class="page-item active" aria-current="page"></li>    
+                <a class="page-link pagenation_letter_color" href="#">3</a>
+            <li class="page-item"><a class="page-link pagenation_letter_color" href="#">4</a></li>
+            <li class="page-item">
+                <a class="page-link pagenation_letter_color" href="#">Next</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
