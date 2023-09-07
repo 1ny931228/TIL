@@ -24,3 +24,10 @@
 
 #### Semantic in CSS
 
+
+
+시험
+
+- grid system 기본요소 - container, column, gutter
+- 12개
+- 반응형웹 p28 숫자랑 글자 연결하기
